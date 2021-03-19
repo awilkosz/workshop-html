@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>La Florentina</h1>
+
+        <h2>Pizzéria</h2>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="liste_pizzas.html">Nos pizzas</a></li>
+                <li><a href="tableau.html">Le tableau</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact</h2>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom">
+
+                <br /><br />
+                
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom">
+
+                <br /><br />
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <br /><br />
+
+                <label for="telephone">Numéro de téléphone</label>
+                <input type="tel" name="telephone" id="telephone">
+
+                <br /><br />
+                
+                <label for="canal">Canal de contact préféré</label>
+                <select name="canal "id="canal">
+                    <option value="email" selected>Email</option>
+                    <option value="telephone">Téléphone</option>
+                </select>
+
+            </fieldset>
+
+            <br />
+
+            <label for="message">Votre Message: </label>
+
+            <br />
+
+            <textarea name="message" id="message"></textarea>
+
+            <br />
+
+            <input type="submit" value="Envoyer">
+
+        </form>
+    </main>
+
+</body>
+</html>
